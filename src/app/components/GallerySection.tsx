@@ -3,32 +3,32 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const galleryImages = [
   {
-    url: 'https://images.unsplash.com/photo-1687709644584-61d98a60dcb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ3JvdW5kJTIwZmFjaWxpdHl8ZW58MXx8fHwxNzY1ODc1NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: 'src/assets/images/upcrick.jpeg',
     title: 'Cricket Ground',
     span: 'col-span-2'
   },
   {
-    url: 'https://images.unsplash.com/photo-1624024834874-2a1611305604?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWRtaW50b24lMjBjb3VydCUyMGluZG9vcnxlbnwxfHx8fDE3NjU4MTQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: 'src/assets/images/upbad.jpeg',
     title: 'Badminton Court',
     span: 'col-span-1'
   },
   {
-    url: 'https://images.unsplash.com/photo-1758426637893-2854f23fe846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzd2ltbWluZyUyMHBvb2wlMjBmYWNpbGl0eXxlbnwxfHx8fDE3NjU4MzkyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: 'src/assets/images/swim.jpeg',
     title: 'Swimming Pool',
     span: 'col-span-1'
   },
   {
-    url: 'https://images.unsplash.com/photo-1761775446030-5e1fdd4166a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZW5uaXMlMjBzcG9ydHMlMjBmYWNpbGl0eXxlbnwxfHx8fDE3NjU4NzU2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    title: 'Sports Facility',
+    url: 'src/assets/images/testview.jpeg',
+    title: 'Front view',
     span: 'col-span-2'
   },
   {
-    url: 'https://images.unsplash.com/photo-1632077804406-188472f1a810?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxneW0lMjBmaXRuZXNzJTIwZXF1aXBtZW50fGVufDF8fHx8MTc2NTg3NTY4MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
-    title: 'Fitness Area',
+    url: 'src/assets/images/upfoot.jpeg',
+    title: 'football court',
     span: 'col-span-1'
   },
   {
-    url: 'https://images.unsplash.com/photo-1758227231013-8cff978f1dae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcG9ydHMlMjBhcmVuYSUyMHN0YWRpdW18ZW58MXx8fHwxNzY1ODY5NDM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    url: 'src/assets/images/uparena.jpeg',
     title: 'Arena View',
     span: 'col-span-2'
   }

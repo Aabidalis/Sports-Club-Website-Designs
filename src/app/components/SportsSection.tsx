@@ -9,7 +9,7 @@ const sports = [
     icon: Trophy,
     description: 'Professional turf & net practice facilities with hourly slot booking',
     features: ['Turf Ground', 'Net Practice', 'Hourly Slots', 'Professional Equipment'],
-    image: 'https://images.unsplash.com/photo-1687709644584-61d98a60dcb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ3JvdW5kJTIwZmFjaWxpdHl8ZW58MXx8fHwxNzY1ODc1NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/images/cricket.jpeg',
     color: 'from-green-500 to-emerald-500'
   },
   {
@@ -18,7 +18,7 @@ const sports = [
     icon: Zap,
     description: 'Indoor wooden courts with professional-grade flooring and lighting',
     features: ['Wooden Courts', 'Indoor Facility', 'Hour-based Booking', 'Quality Equipment'],
-    image: 'https://images.unsplash.com/photo-1624024834874-2a1611305604?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWRtaW50b24lMjBjb3VydCUyMGluZG9vcnxlbnwxfHx8fDE3NjU4MTQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/images/mainbad.jpeg',
     color: 'from-blue-500 to-cyan-500'
   },
   {
@@ -27,7 +27,7 @@ const sports = [
     icon: Waves,
     description: 'Clean, well-maintained swimming pool with trained lifeguards',
     features: ['Olympic Pool', 'Timed Batches', 'Slot System', 'Safety First'],
-    image: 'https://images.unsplash.com/photo-1758426637893-2854f23fe846?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzd2ltbWluZyUyMHBvb2wlMjBmYWNpbGl0eXxlbnwxfHx8fDE3NjU4MzkyMDV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/images/swimming.png',
     color: 'from-orange-500 to-red-500'
   }
 ];

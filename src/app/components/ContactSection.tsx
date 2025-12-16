@@ -90,9 +90,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="text-white mb-1">Address</h4>
                   <p className="text-gray-400">
-                    123 Sports Complex Road,<br />
-                    Near City College,<br />
-                    Mumbai - 400001
+                   DMM Garden, 1st Main Rd, Vidya Nagar, T. Dasarahalli, Bengaluru, Karnataka 560057
                   </p>
                 </div>
               </div>
@@ -124,7 +122,7 @@ export function ContactSection() {
                 <div>
                   <h4 className="text-white mb-1">Opening Hours</h4>
                   <p className="text-gray-400">Monday - Sunday</p>
-                  <p className="text-gray-400">6:00 AM - 10:00 PM</p>
+                  <p className="text-gray-400">05:00 AM - 11:00 PM</p>
                 </div>
               </div>
             </div>
@@ -132,10 +130,15 @@ export function ContactSection() {
             {/* Map Placeholder */}
             <div className="mt-8 bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
               <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="text-gray-600 mx-auto mb-2" size={48} />
-                  <p className="text-gray-500">Map Location</p>
-                </div>
+               <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.9015706174173!2d77.50677347512404!3d13.04193688727991!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3d0038bd2049%3A0x7f81d2884a8b3b9b!2sAM%20SPORTS%20ARENA%20-%20SPORTS%20CLUB!5e0!3m2!1sen!2sin!4v1765913616999!5m2!1sen!2sin"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full"
+              ></iframe>
               </div>
             </div>
           </div>

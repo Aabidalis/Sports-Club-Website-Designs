@@ -4,9 +4,10 @@ import { Check } from 'lucide-react';
 const pricingPlans = [
   {
     sport: 'Cricket',
-    price: '₹500',
-    duration: 'per hour',
+    price: '₹2500',
+    duration: 'per hour full court , half court - ₹1200',
     features: [
+      'Discount Available On Call',
       'Professional turf ground',
       'Net practice available',
       'Equipment provided',
@@ -19,8 +20,9 @@ const pricingPlans = [
   {
     sport: 'Badminton',
     price: '₹300',
-    duration: 'per hour',
+    duration: 'per hour , weekday - ₹350',
     features: [
+      'Discount Available On Call',
       'Indoor wooden courts',
       'Premium flooring',
       'Rackets available',
@@ -32,9 +34,10 @@ const pricingPlans = [
   },
   {
     sport: 'Swimming',
-    price: '₹200',
-    duration: 'per session',
+    price: '₹120',
+    duration: 'per session , weekend - ₹150',
     features: [
+      'Discount Available On Call',
       'Olympic-size pool',
       'Trained lifeguards',
       'Clean facilities',

@@ -11,14 +11,12 @@ export function Footer() {
 
   return (
     <footer className="bg-gray-950 border-t border-gray-800 py-12">
-      <div className="container mx-auto px-4">
+      <div className="container mx-auto px-25">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg flex items-center justify-center">
-                <span className="text-white">⚡</span>
-              </div>
+               <img className='h-20 border-4 rounded-2xl' src="src/assets/images/logo/footlogo.jpeg" alt="" />
               <span className="text-xl text-white">AM Sports Arena</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
@@ -79,8 +77,7 @@ export function Footer() {
             <h4 className="text-white mb-4">Contact</h4>
             <ul className="space-y-3 text-sm">
               <li className="text-gray-400">
-                123 Sports Complex Road<br />
-                Mumbai - 400001
+               DMM Garden, 1st Main Rd, Vidya Nagar, T. Dasarahalli, Bengaluru, Karnataka 560057
               </li>
               <li className="text-gray-400">
                 +91 6362205879

@@ -38,15 +38,18 @@ export function Header() {
         isScrolled ? 'bg-gray-950/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4 py-4">
+      <div className="container mx-auto px-15 py-4">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <div className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-gradient-to-br from-green-500 to-blue-500 rounded-lg flex items-center justify-center">
-              <span className="text-white">⚡</span>
+          <a href="/">
+            <div className="flex items-center">
+              <img
+                src="src/assets/images/logo/final.png"
+                alt="AM Sports Arena"
+                className="h-15 w-auto"
+              />
             </div>
-            <span className="text-xl text-white">AM Sports Arena</span>
-          </div>
+          </a>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
@@ -54,7 +57,11 @@ export function Header() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-white transition-colors"
+                className={`transition-colors ${
+                  item.id === 'contact'
+                    ? 'px-4 py-1 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white rounded-lg  shadow-2xl transform hover:scale-105 transition-all duration-300'
+                    : 'text-gray-300 hover:text-white'
+                }`}
               >
                 {item.label}
               </button>
@@ -77,7 +84,11 @@ export function Header() {
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="text-gray-300 hover:text-white transition-colors text-left"
+                className={`transition-colors text-left ${
+                  item.id === 'contact'
+                    ? 'px-12 py-5 bg-gradient-to-r from-green-500 to-blue-500 hover:from-green-600 hover:to-blue-600 text-white rounded-lg text-lg shadow-2xl transform hover:scale-105 transition-all duration-300'
+                    : 'text-gray-300 hover:text-white'
+                }`}
               >
                 {item.label}
               </button>

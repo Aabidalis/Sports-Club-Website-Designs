@@ -7,7 +7,7 @@ const blogPosts = [
     id: 1,
     title: '5 Essential Cricket Training Drills for Beginners',
     excerpt: 'Master the fundamentals with these proven cricket training techniques that will improve your game significantly.',
-    image: 'https://images.unsplash.com/photo-1687709644584-61d98a60dcb5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjcmlja2V0JTIwZ3JvdW5kJTIwZmFjaWxpdHl8ZW58MXx8fHwxNzY1ODc1NjgwfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/blog/1st.jpeg',
     author: 'Coach Rajesh',
     date: 'Dec 10, 2025',
     category: 'Cricket'
@@ -16,7 +16,7 @@ const blogPosts = [
     id: 2,
     title: 'Badminton Footwork: The Key to Winning Matches',
     excerpt: 'Learn how proper footwork can transform your badminton game and give you the competitive edge you need.',
-    image: 'https://images.unsplash.com/photo-1624024834874-2a1611305604?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWRtaW50b24lMjBjb3VydCUyMGluZG9vcnxlbnwxfHx8fDE3NjU4MTQ5NTR8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/blog/2nd.jpg',
     author: 'Priya Sharma',
     date: 'Dec 8, 2025',
     category: 'Badminton'
@@ -34,7 +34,7 @@ const blogPosts = [
     id: 4,
     title: 'The Benefits of Multi-Sport Training',
     excerpt: 'Why playing multiple sports can enhance your overall athletic performance and reduce injury risk.',
-    image: 'https://images.unsplash.com/photo-1758227231013-8cff978f1dae?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxzcG9ydHMlMjBhcmVuYSUyMHN0YWRpdW18ZW58MXx8fHwxNzY1ODY5NDM1fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/blog/4th.jpg',
     author: 'Dr. Ananya Iyer',
     date: 'Dec 3, 2025',
     category: 'Fitness'
@@ -43,7 +43,7 @@ const blogPosts = [
     id: 5,
     title: 'Nutrition Tips for Athletes',
     excerpt: 'Fuel your body right with these essential nutrition guidelines for optimal sports performance.',
-    image: 'https://images.unsplash.com/photo-1632077804406-188472f1a810?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxneW0lMjBmaXRuZXNzJTIwZXF1aXBtZW50fGVufDF8fHx8MTc2NTg3NTY4MXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/blog/5ths.jpeg',
     author: 'Nutritionist Meera',
     date: 'Dec 1, 2025',
     category: 'Health'
@@ -52,7 +52,7 @@ const blogPosts = [
     id: 6,
     title: 'How to Choose the Right Sports Facility',
     excerpt: 'A comprehensive guide to selecting the perfect sports arena for your training and practice needs.',
-    image: 'https://images.unsplash.com/photo-1761775446030-5e1fdd4166a5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZW5uaXMlMjBzcG9ydHMlMjBmYWNpbGl0eXxlbnwxfHx8fDE3NjU4NzU2ODF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'src/assets/blog/6th.jpg',
     author: 'Team AM Sports',
     date: 'Nov 28, 2025',
     category: 'Tips'
