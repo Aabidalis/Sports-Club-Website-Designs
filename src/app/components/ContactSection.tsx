@@ -131,12 +131,16 @@ export function ContactSection() {
 
             {/* Map Placeholder */}
             <div className="mt-8 bg-gray-900 rounded-xl overflow-hidden border border-gray-800">
-              <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
-                <div className="text-center">
-                  <MapPin className="text-gray-600 mx-auto mb-2" size={48} />
-                  <p className="text-gray-500">Map Location</p>
-                </div>
-              </div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.898490405748!2d77.5095158!3d13.0421329!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae3cda083a02df%3A0x52f9a46b2796bf72!2s2GR5%2BVR6%2C%20Vidya%20Nagar%2C%20T.%20Dasarahalli%2C%20Bengaluru%2C%20Karnataka%20560073!5e0!3m2!1sen!2sin!4v1765888697171!5m2!1sen!2sin"
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen=""
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                className="w-full"
+              ></iframe>
             </div>
           </div>
         </div>
