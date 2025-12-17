@@ -16,7 +16,7 @@ export function Footer() {
           {/* Logo & Description */}
           <div className="md:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-               <img className='h-20 border-4 rounded-2xl' src="src/assets/images/logo/footlogo.jpeg" alt="" />
+               <img className='h-20 border-4 rounded-2xl' src="/images/logo/footlogo.jpeg" alt="" />
               <span className="text-xl text-white">AM Sports Arena</span>
             </div>
             <p className="text-gray-400 text-sm mb-4">
