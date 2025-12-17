@@ -14,7 +14,7 @@ export function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <ImageWithFallback
-          src="src/assets/images/1st.png"
+         src="/images/hero/1st.png"
           alt="Sports Arena"
           className="w-full h-full object-cover"
         />
