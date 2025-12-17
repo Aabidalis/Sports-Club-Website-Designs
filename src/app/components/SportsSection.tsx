@@ -9,7 +9,7 @@ const sports = [
     icon: Trophy,
     description: 'Professional turf & net practice facilities with hourly slot booking',
     features: ['Turf Ground', 'Net Practice', 'Hourly Slots', 'Professional Equipment'],
-    image: 'src/assets/images/cricket.jpeg',
+    image: '/sports/cricket.jpeg',
     color: 'from-green-500 to-emerald-500'
   },
   {
@@ -18,7 +18,7 @@ const sports = [
     icon: Zap,
     description: 'Indoor wooden courts with professional-grade flooring and lighting',
     features: ['Wooden Courts', 'Indoor Facility', 'Hour-based Booking', 'Quality Equipment'],
-    image: 'src/assets/images/mainbad.jpeg',
+    image: '/sports/mainbad.jpeg',
     color: 'from-blue-500 to-cyan-500'
   },
   {
@@ -27,7 +27,7 @@ const sports = [
     icon: Waves,
     description: 'Clean, well-maintained swimming pool with trained lifeguards',
     features: ['Olympic Pool', 'Timed Batches', 'Slot System', 'Safety First'],
-    image: 'src/assets/images/swimming.png',
+    image: '/sports/swimming.png',
     color: 'from-orange-500 to-red-500'
   }
 ];
@@ -60,7 +60,7 @@ export function SportsSection() {
               >
                 {/* Image */}
                 <div className="relative h-56 overflow-hidden">
-                  <ImageWithFallback
+                  <img
                     src={sport.image}
                     alt={sport.name}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"

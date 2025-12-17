@@ -3,32 +3,32 @@ import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const galleryImages = [
   {
-    url: 'src/assets/images/upcrick.jpeg',
+    url: '/sports/upcrick.jpeg',
     title: 'Cricket Ground',
     span: 'col-span-2'
   },
   {
-    url: 'src/assets/images/upbad.jpeg',
+    url: '/sports/upbad.jpeg',
     title: 'Badminton Court',
     span: 'col-span-1'
   },
   {
-    url: 'src/assets/images/swim.jpeg',
+    url: '/sports/swim.jpeg',
     title: 'Swimming Pool',
     span: 'col-span-1'
   },
   {
-    url: 'src/assets/images/testview.jpeg',
+    url: '/sports/testview.jpeg',
     title: 'Front view',
     span: 'col-span-2'
   },
   {
-    url: 'src/assets/images/upfoot.jpeg',
+    url: '/sports/upfoot.jpeg',
     title: 'football court',
     span: 'col-span-1'
   },
   {
-    url: 'src/assets/images/uparena.jpeg',
+    url: '/sports/uparena.jpeg',
     title: 'Arena View',
     span: 'col-span-2'
   }
