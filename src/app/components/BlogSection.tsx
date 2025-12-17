@@ -35,7 +35,7 @@ const blogPosts = [
     title: 'The Benefits of Multi-Sport Training',
     excerpt: 'Why playing multiple sports can enhance your overall athletic performance and reduce injury risk.',
     image: '/blog/4th.jpg',
-    author: 'Dr. Ananya Iyer',
+    author: 'Dr Nagalakshmi',
     date: 'Dec 3, 2025',
     category: 'Fitness'
   },

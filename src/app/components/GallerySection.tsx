@@ -13,7 +13,7 @@ const galleryImages = [
     span: 'col-span-1'
   },
   {
-    url: '/sports/swimming.jpeg',
+    url: '/sports/swimming.png',
     title: 'Swimming Pool',
     span: 'col-span-1'
   },
