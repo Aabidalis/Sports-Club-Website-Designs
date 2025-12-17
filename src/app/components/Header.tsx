@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 
+
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -44,7 +45,7 @@ export function Header() {
           <a href="/">
             <div className="flex items-center">
               <img
-                src="src/assets/images/logo/final.png"
+                src="/images/logo/final.png"
                 alt="AM Sports Arena"
                 className="h-15 w-auto"
               />
